@@ -1,0 +1,276 @@
+21/08/24 15:16:22:048 - Atribuindo PSP: TACBrPSPBancoDoBrasil, Nome: ACBrPSPBancoDoBrasil1
+21/08/24 15:16:22:060 - CriarCobrancaImediata(  )
+21/08/24 15:16:22:061 - PrepararHTTP
+21/08/24 15:16:22:065 - Autenticar
+21/08/24 15:16:22:068 - LimparHTTP
+21/08/24 15:16:22:071 - TransmitirHttp( POST, https://oauth.hm.bb.com.br/oauth/token )
+21/08/24 15:16:22:074 - ConfigurarHTTP
+21/08/24 15:16:22:077 - ConfigurarProxy
+21/08/24 15:16:22:080 - ConfigurarTimeOut
+21/08/24 15:16:22:083 - ConfigurarHeaders( POST, https://oauth.hm.bb.com.br/oauth/token )
+21/08/24 15:16:22:086 -   Req.Headers:
+Authorization: Basic ZXlKcFpDSTZJamhsTWpnek5tUXRPQ0lzSW1OdlpHbG5iMUIxWW14cFkyRmtiM0lpT2pBc0ltTnZaR2xuYjFOdlpuUjNZWEpsSWpveE1EWTVOalVzSW5ObGNYVmxibU5wWVd4SmJuTjBZV3hoWTJGdklqb3hmUTpleUpwWkNJNkltUXhNamN4WldObExUZ3pORGt0TkRNMk9TMWlNemMzTFRVNFlUUmpObU5sTXpVMlppSXNJbU52WkdsbmIxQjFZbXhwWTJGa2IzSWlPakFzSW1OdlpHbG5iMU52Wm5SM1lYSmxJam94TURZNU5qVXNJbk5sY1hWbGJtTnBZV3hKYm5OMFlXeGhZMkZ2SWpveExDSnpaWEYxWlc1amFXRnNRM0psWkdWdVkybGhiQ0k2TVN3aVlXMWlhV1Z1ZEdVaU9pSm9iMjF2Ykc5bllXTmhieUlzSW1saGRDSTZNVGN5TkRFNU1qa3dOelU0TUgw
+
+21/08/24 15:16:22:099 -   Req.Body:
+grant_type=client_credentials&scope=cob.write%20cob.read%20pix.write%20pix.read
+21/08/24 15:16:22:104 - 
+Http.Sock.SSL.CertificateFile: C:\VisualTec\PIX_BB\AC Banco do Brasil - SERVIDORES v1 HOM.cer
+Http.Sock.SSL.PrivateKeyFile: 
+Http.Sock.SSL.Certificate: 
+Http.Sock.SSL.PrivateKey: 
+
+21/08/24 15:16:23:096 -   ResultCode: 200 - OK
+21/08/24 15:16:23:096 -   Sock.LastError: 0
+21/08/24 15:16:23:102 -   Resp.Headers:
+HTTP/1.1 200 OK
+Cache-Control: private, no-store, must-revalidate, max-age=1, s-max-age=1
+Connection: Keep-Alive
+Date: Wed, 21 Aug 2024 18:16:23 GMT
+Pragma: no-cache
+Content-Length: 1304
+Content-Type: application/json
+Access-Control-Allow-Headers: Authorization, X-br-com-bb-prop.1, X-br-com-bb-prop.2, X-br-com-bb-prop.3, X-br-com-bb-prop.4, X-br-com-bb-prop.5, X-br-com-bb-prop.6, X-br-com-bb-prop.7, X-br-com-bb-prop.8, X-br-com-bb-prop.9, X-br-com-bb-prop.10, X-br-com-bb-prop.11, X-br-com-bb-prop.12, X-br-com-bb-prop.13, X-br-com-bb-prop.14, X-br-com-bb-prop.15, X-br-com-bb-tipo-identificador, X-br-com-bb-tipo-credencial, X-br-com-bb-oat-tipo-identificador, X-br-com-bb-oat-tipo-credencial, x-br-com-bb-oat-token-otp, Content-type, Accept, Origin, Charset, Accept-Language
+Set-Cookie: JSESSIONID=h7B2J3YBdb_lqtjzSKkgvecx-jgN9fjTAC6qDE0L1hW1dqYA8xLY!-68197249; path=/; secure; HttpOnly
+Charset: UTF-8
+X-XSS-Protection: 1
+Access-Control-Allow-Methods: POST
+X-ORACLE-DMS-ECID: 114c9e31-4970-4da0-a5f6-14bf7a240bf6-000cb7d1
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: false
+x-br-com-bb-oat-versao: 1.13.21.1.10
+x-br-com-bb-oat-servidor: hxl1oat00017_oat-servidor-autorizacao-1
+X-ORACLE-DMS-RID: 0
+Access-Control-Expose-Headers: Content-Type, WWW-Authenticate, Cache-Control, Pragma, Vary, Content-Encoding, X-br-com-bb-prop.1, X-br-com-bb-prop.2, X-br-com-bb-prop.3, X-br-com-bb-prop.4, X-br-com-bb-prop.5, X-br-com-bb-prop.6, X-br-com-bb-prop.7, X-br-com-bb-prop.8, X-br-com-bb-prop.9, X-br-com-bb-prop.10, X-br-com-bb-prop.11, X-br-com-bb-prop.12, X-br-com-bb-prop.13, X-br-com-bb-prop.14, X-br-com-bb-prop.15 x-br-com-bb-oat-titulares-conta
+Access-Control-Max-Age: 8400
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+
+21/08/24 15:16:23:106 - Resp.Body:
+{"access_token":"LRyks6oJS9rzvN4bybSIYAgDyeOC6kvGvPLyHDCdgXHssmxfvLW328RGg79XcXmZD768DU3ShEZtihKRalSWag.xXe-S8m-hHE3Z1tnmeaAj2FsJ95g_cE6GjR1DQNS94gcK_bw1izfh8NaDj-6O1o51Jb9lSc9FT_5_Rg_tlUhvCKWhGA9JyW79yylQW7zUHndMq9XJ5SEE0cpKJut52_3zX9WgM1WzqjQvkQskZBEoqOBYSH87e4UKa0kN4jYVmJAAX8wEeY7isHWz143qhbqiyKRyNjO07ugAk53mnaMSQDaP82SG2pNDdwrPg38YkBaNsl9wlnFOrtQy_8aVUyzlnxDwPdsRfaI6PqcNSsFy2yEjZgzzNpQ7UukyyQvQvxBaUtPDYc7pUHkX3365uBd5MwKhZrOw_r7dyeppejkt2Yp6u7ujQnKF-H-R8mnqdk9FEToIEaP99qbp48jM20_xuTm_K451VfDWNZw-3fg7TpQxUQ575gK5HeVwHxibVYbieTCBm7mDzVvjL80VXDYCbGvgKCL_XjPD0_9ZK_RyG3CUjL4xRqLmzU57Qm4zcCBu76veRaO3ApUyAXwRTv3pKYARBvPTgFSMn0F7rCajMVYF9AWODokqPBtNCA0je69rhInP6CBCSs5xWe4LasI7811IRJuxEETrPCKFYrmoKVlgnCQP5hVX9nbsgMt-vP43YiOWwPt1L2-hZ7b6egezfPvxHvzwqNAMq7UliE7M1XzuMMPCNvKTIUwZKHBPdtW22KtBJGg3hBZRbRIF-1VW4tvgmlGnXLfv_m27fZaI-kb7L0JgQjri_0L8M6k1u17uArm14FAyti6TjSVehNzpD16fLw0jH7HzFh-ZW_pvXHelQbc7VhRHNMc-iW_2UPp_0h8CBFKXYzJ42WutPhShiRZeFw51dmME64rWvI3A680YVRtAxTJPH-lhDPvumbNKx1Ic1tS0oe92vFLaJu0oTpmsBPeQYnOoKupLZ3_0-Wnm2o9ydMsDsugJJiohmCa6GDlj6eiduc2Z7V4oCDl5gxA40TcSODFW6k3H0KQdd9pK6untRe-8fqK1_KtpVUnw9o4xpm4HfUdulFc-Prz.YHxSr8EQG4B7FB_xlOc3QVl6W5r3MTdPeK0xB2380L17a2kKWiER6JYFnZp6mAFfH39HtSM91CXGHSOidRaThg","token_type":"Bearer","expires_in":600,"scope":"pix.read pix.write cob.write cob.read"}
+21/08/24 15:16:23:110 - LimparHTTP
+21/08/24 15:16:23:114 - AcessarEndPoint( POST, /cob )
+21/08/24 15:16:23:119 - ConfigurarAutenticacao( POST, /cob )
+21/08/24 15:16:23:124 - CalcularURLEndPoint( POST, /cob )
+21/08/24 15:16:23:129 -   https://api.hm.bb.com.br/pix/v2/cob?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57
+21/08/24 15:16:23:133 - ChamarEventoQuandoAcessarEndPoint( /cob, https://api.hm.bb.com.br/pix/v2/cob?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57, POST )
+21/08/24 15:16:23:137 - TransmitirHttp( POST, https://api.hm.bb.com.br/pix/v2/cob?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57 )
+21/08/24 15:16:23:141 - ConfigurarHTTP
+21/08/24 15:16:23:145 - ConfigurarProxy
+21/08/24 15:16:23:149 - ConfigurarTimeOut
+21/08/24 15:16:23:153 - ConfigurarHeaders( POST, https://api.hm.bb.com.br/pix/v2/cob?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57 )
+21/08/24 15:16:23:157 -   Req.Headers:
+Authorization:Bearer LRyks6oJS9rzvN4bybSIYAgDyeOC6kvGvPLyHDCdgXHssmxfvLW328RGg79XcXmZD768DU3ShEZtihKRalSWag.xXe-S8m-hHE3Z1tnmeaAj2FsJ95g_cE6GjR1DQNS94gcK_bw1izfh8NaDj-6O1o51Jb9lSc9FT_5_Rg_tlUhvCKWhGA9JyW79yylQW7zUHndMq9XJ5SEE0cpKJut52_3zX9WgM1WzqjQvkQskZBEoqOBYSH87e4UKa0kN4jYVmJAAX8wEeY7isHWz143qhbqiyKRyNjO07ugAk53mnaMSQDaP82SG2pNDdwrPg38YkBaNsl9wlnFOrtQy_8aVUyzlnxDwPdsRfaI6PqcNSsFy2yEjZgzzNpQ7UukyyQvQvxBaUtPDYc7pUHkX3365uBd5MwKhZrOw_r7dyeppejkt2Yp6u7ujQnKF-H-R8mnqdk9FEToIEaP99qbp48jM20_xuTm_K451VfDWNZw-3fg7TpQxUQ575gK5HeVwHxibVYbieTCBm7mDzVvjL80VXDYCbGvgKCL_XjPD0_9ZK_RyG3CUjL4xRqLmzU57Qm4zcCBu76veRaO3ApUyAXwRTv3pKYARBvPTgFSMn0F7rCajMVYF9AWODokqPBtNCA0je69rhInP6CBCSs5xWe4LasI7811IRJuxEETrPCKFYrmoKVlgnCQP5hVX9nbsgMt-vP43YiOWwPt1L2-hZ7b6egezfPvxHvzwqNAMq7UliE7M1XzuMMPCNvKTIUwZKHBPdtW22KtBJGg3hBZRbRIF-1VW4tvgmlGnXLfv_m27fZaI-kb7L0JgQjri_0L8M6k1u17uArm14FAyti6TjSVehNzpD16fLw0jH7HzFh-ZW_pvXHelQbc7VhRHNMc-iW_2UPp_0h8CBFKXYzJ42WutPhShiRZeFw51dmME64rWvI3A680YVRtAxTJPH-lhDPvumbNKx1Ic1tS0oe92vFLaJu0oTpmsBPeQYnOoKupLZ3_0-Wnm2o9ydMsDsugJJiohmCa6GDlj6eiduc2Z7V4oCDl5gxA40TcSODFW6k3H0KQdd9pK6untRe-8fqK1_KtpVUnw9o4xpm4HfUdulFc-Prz.YHxSr8EQG4B7FB_xlOc3QVl6W5r3MTdPeK0xB2380L17a2kKWiER6JYFnZp6mAFfH39HtSM91CXGHSOidRaThg
+
+21/08/24 15:16:23:162 -   Req.Body:
+{"calendario":{"expiracao":300},"devedor":{"cpf":"41503057810","nome":"WELINGTON FERREIRA"},"valor":{"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1"}
+21/08/24 15:16:23:166 - 
+Http.Sock.SSL.CertificateFile: C:\VisualTec\PIX_BB\AC Banco do Brasil - SERVIDORES v1 HOM.cer
+Http.Sock.SSL.PrivateKeyFile: 
+Http.Sock.SSL.Certificate: 
+Http.Sock.SSL.PrivateKey: 
+
+21/08/24 15:16:23:746 -   ResultCode: 201 - Created
+21/08/24 15:16:23:746 -   Sock.LastError: 0
+21/08/24 15:16:23:752 -   Resp.Headers:
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+x-request-id: 4e0d07b4ceeaf83bde6edd6acd284b30
+x-bw-uuid: 1c13db0c-9876-407b-aa23-2e406c5166d3
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+x-powered-by: Banco do Brasil
+x-download-options: noopen
+Content-Type: application/json
+Content-Length: 657
+Date: Wed, 21 Aug 2024 18:16:24 GMT
+Connection: keep-alive
+
+
+21/08/24 15:16:23:756 - Resp.Body:
+{"calendario":{"criacao":"2024-08-21T15:16:24.66-03:00","expiracao":300},"devedor":{"cpf":"41503057810","nome":"NILSON DE MACEDO SOARES"},"valor":{"modalidadeAlteracao":0,"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","solicitacaoPagador":"Solicitacao Pix","infoAdicionais":[],"txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","revisao":0,"location":"qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b6785650","status":"ATIVA","pixCopiaECola":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD"}
+21/08/24 15:16:23:761 - ChamarEventoQuandoReceberRespostaEndPoint( /cob, POST )
+21/08/24 15:16:23:765 -   ResultCode:201
+21/08/24 15:16:23:770 -   RespostaHttp: {"calendario":{"criacao":"2024-08-21T15:16:24.66-03:00","expiracao":300},"devedor":{"cpf":"41503057810","nome":"NILSON DE MACEDO SOARES"},"valor":{"modalidadeAlteracao":0,"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","solicitacaoPagador":"Solicitacao Pix","infoAdicionais":[],"txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","revisao":0,"location":"qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b6785650","status":"ATIVA","pixCopiaECola":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD"}
+21/08/24 15:16:23:782 - ConsultarCobrancaImediata( ooR45ctp0o6HQgm5FMFR1ihvPm, 0 )
+21/08/24 15:16:23:783 - PrepararHTTP
+21/08/24 15:16:23:787 - LimparHTTP
+21/08/24 15:16:23:791 - AcessarEndPoint( GET, /cob )
+21/08/24 15:16:23:796 - ConfigurarAutenticacao( GET, /cob )
+21/08/24 15:16:23:800 - CalcularURLEndPoint( GET, /cob )
+21/08/24 15:16:23:804 -   https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57
+21/08/24 15:16:23:808 - ChamarEventoQuandoAcessarEndPoint( /cob, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57, GET )
+21/08/24 15:16:23:812 - TransmitirHttp( GET, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57 )
+21/08/24 15:16:23:816 - ConfigurarHTTP
+21/08/24 15:16:23:820 - ConfigurarProxy
+21/08/24 15:16:23:825 - ConfigurarTimeOut
+21/08/24 15:16:23:829 - ConfigurarHeaders( GET, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57 )
+21/08/24 15:16:23:833 -   Req.Headers:
+Authorization:Bearer LRyks6oJS9rzvN4bybSIYAgDyeOC6kvGvPLyHDCdgXHssmxfvLW328RGg79XcXmZD768DU3ShEZtihKRalSWag.xXe-S8m-hHE3Z1tnmeaAj2FsJ95g_cE6GjR1DQNS94gcK_bw1izfh8NaDj-6O1o51Jb9lSc9FT_5_Rg_tlUhvCKWhGA9JyW79yylQW7zUHndMq9XJ5SEE0cpKJut52_3zX9WgM1WzqjQvkQskZBEoqOBYSH87e4UKa0kN4jYVmJAAX8wEeY7isHWz143qhbqiyKRyNjO07ugAk53mnaMSQDaP82SG2pNDdwrPg38YkBaNsl9wlnFOrtQy_8aVUyzlnxDwPdsRfaI6PqcNSsFy2yEjZgzzNpQ7UukyyQvQvxBaUtPDYc7pUHkX3365uBd5MwKhZrOw_r7dyeppejkt2Yp6u7ujQnKF-H-R8mnqdk9FEToIEaP99qbp48jM20_xuTm_K451VfDWNZw-3fg7TpQxUQ575gK5HeVwHxibVYbieTCBm7mDzVvjL80VXDYCbGvgKCL_XjPD0_9ZK_RyG3CUjL4xRqLmzU57Qm4zcCBu76veRaO3ApUyAXwRTv3pKYARBvPTgFSMn0F7rCajMVYF9AWODokqPBtNCA0je69rhInP6CBCSs5xWe4LasI7811IRJuxEETrPCKFYrmoKVlgnCQP5hVX9nbsgMt-vP43YiOWwPt1L2-hZ7b6egezfPvxHvzwqNAMq7UliE7M1XzuMMPCNvKTIUwZKHBPdtW22KtBJGg3hBZRbRIF-1VW4tvgmlGnXLfv_m27fZaI-kb7L0JgQjri_0L8M6k1u17uArm14FAyti6TjSVehNzpD16fLw0jH7HzFh-ZW_pvXHelQbc7VhRHNMc-iW_2UPp_0h8CBFKXYzJ42WutPhShiRZeFw51dmME64rWvI3A680YVRtAxTJPH-lhDPvumbNKx1Ic1tS0oe92vFLaJu0oTpmsBPeQYnOoKupLZ3_0-Wnm2o9ydMsDsugJJiohmCa6GDlj6eiduc2Z7V4oCDl5gxA40TcSODFW6k3H0KQdd9pK6untRe-8fqK1_KtpVUnw9o4xpm4HfUdulFc-Prz.YHxSr8EQG4B7FB_xlOc3QVl6W5r3MTdPeK0xB2380L17a2kKWiER6JYFnZp6mAFfH39HtSM91CXGHSOidRaThg
+
+21/08/24 15:16:23:837 -   Req.Body:
+
+21/08/24 15:16:23:842 - 
+Http.Sock.SSL.CertificateFile: C:\VisualTec\PIX_BB\AC Banco do Brasil - SERVIDORES v1 HOM.cer
+Http.Sock.SSL.PrivateKeyFile: 
+Http.Sock.SSL.Certificate: 
+Http.Sock.SSL.PrivateKey: 
+
+21/08/24 15:16:24:448 -   ResultCode: 200 - OK
+21/08/24 15:16:24:448 -   Sock.LastError: 0
+21/08/24 15:16:24:454 -   Resp.Headers:
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+x-request-id: c901986e11e0b4ddeb145c457b91b63e
+x-bw-uuid: 8f151f34-f1d7-468a-93a8-96c44bef7166
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+x-powered-by: Banco do Brasil
+x-download-options: noopen
+Content-Type: application/json
+Content-Length: 567
+Date: Wed, 21 Aug 2024 18:16:24 GMT
+Connection: keep-alive
+
+
+21/08/24 15:16:24:459 - Resp.Body:
+{"calendario":{"criacao":"2024-08-21T15:16:24.00-03:00","expiracao":300},"devedor":{"cpf":"41503057810","nome":"NILSON DE MACEDO SOARES"},"valor":{"modalidadeAlteracao":0,"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","solicitacaoPagador":"Solicitacao Pix","txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","revisao":0,"status":"ATIVA","pixCopiaECola":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD","pix":[]}
+21/08/24 15:16:24:463 - ChamarEventoQuandoReceberRespostaEndPoint( /cob, GET )
+21/08/24 15:16:24:468 -   ResultCode:200
+21/08/24 15:16:24:472 -   RespostaHttp: {"calendario":{"criacao":"2024-08-21T15:16:24.00-03:00","expiracao":300},"devedor":{"cpf":"41503057810","nome":"NILSON DE MACEDO SOARES"},"valor":{"modalidadeAlteracao":0,"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","solicitacaoPagador":"Solicitacao Pix","txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","revisao":0,"status":"ATIVA","pixCopiaECola":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD","pix":[]}
+21/08/24 15:16:27:336 - ConsultarCobrancaImediata( ooR45ctp0o6HQgm5FMFR1ihvPm, 0 )
+21/08/24 15:16:27:336 - PrepararHTTP
+21/08/24 15:16:27:342 - LimparHTTP
+21/08/24 15:16:27:346 - AcessarEndPoint( GET, /cob )
+21/08/24 15:16:27:351 - ConfigurarAutenticacao( GET, /cob )
+21/08/24 15:16:27:355 - CalcularURLEndPoint( GET, /cob )
+21/08/24 15:16:27:360 -   https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57
+21/08/24 15:16:27:364 - ChamarEventoQuandoAcessarEndPoint( /cob, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57, GET )
+21/08/24 15:16:27:368 - TransmitirHttp( GET, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57 )
+21/08/24 15:16:27:372 - ConfigurarHTTP
+21/08/24 15:16:27:376 - ConfigurarProxy
+21/08/24 15:16:27:380 - ConfigurarTimeOut
+21/08/24 15:16:27:384 - ConfigurarHeaders( GET, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57 )
+21/08/24 15:16:27:389 -   Req.Headers:
+Authorization:Bearer LRyks6oJS9rzvN4bybSIYAgDyeOC6kvGvPLyHDCdgXHssmxfvLW328RGg79XcXmZD768DU3ShEZtihKRalSWag.xXe-S8m-hHE3Z1tnmeaAj2FsJ95g_cE6GjR1DQNS94gcK_bw1izfh8NaDj-6O1o51Jb9lSc9FT_5_Rg_tlUhvCKWhGA9JyW79yylQW7zUHndMq9XJ5SEE0cpKJut52_3zX9WgM1WzqjQvkQskZBEoqOBYSH87e4UKa0kN4jYVmJAAX8wEeY7isHWz143qhbqiyKRyNjO07ugAk53mnaMSQDaP82SG2pNDdwrPg38YkBaNsl9wlnFOrtQy_8aVUyzlnxDwPdsRfaI6PqcNSsFy2yEjZgzzNpQ7UukyyQvQvxBaUtPDYc7pUHkX3365uBd5MwKhZrOw_r7dyeppejkt2Yp6u7ujQnKF-H-R8mnqdk9FEToIEaP99qbp48jM20_xuTm_K451VfDWNZw-3fg7TpQxUQ575gK5HeVwHxibVYbieTCBm7mDzVvjL80VXDYCbGvgKCL_XjPD0_9ZK_RyG3CUjL4xRqLmzU57Qm4zcCBu76veRaO3ApUyAXwRTv3pKYARBvPTgFSMn0F7rCajMVYF9AWODokqPBtNCA0je69rhInP6CBCSs5xWe4LasI7811IRJuxEETrPCKFYrmoKVlgnCQP5hVX9nbsgMt-vP43YiOWwPt1L2-hZ7b6egezfPvxHvzwqNAMq7UliE7M1XzuMMPCNvKTIUwZKHBPdtW22KtBJGg3hBZRbRIF-1VW4tvgmlGnXLfv_m27fZaI-kb7L0JgQjri_0L8M6k1u17uArm14FAyti6TjSVehNzpD16fLw0jH7HzFh-ZW_pvXHelQbc7VhRHNMc-iW_2UPp_0h8CBFKXYzJ42WutPhShiRZeFw51dmME64rWvI3A680YVRtAxTJPH-lhDPvumbNKx1Ic1tS0oe92vFLaJu0oTpmsBPeQYnOoKupLZ3_0-Wnm2o9ydMsDsugJJiohmCa6GDlj6eiduc2Z7V4oCDl5gxA40TcSODFW6k3H0KQdd9pK6untRe-8fqK1_KtpVUnw9o4xpm4HfUdulFc-Prz.YHxSr8EQG4B7FB_xlOc3QVl6W5r3MTdPeK0xB2380L17a2kKWiER6JYFnZp6mAFfH39HtSM91CXGHSOidRaThg
+
+21/08/24 15:16:27:393 -   Req.Body:
+
+21/08/24 15:16:27:397 - 
+Http.Sock.SSL.CertificateFile: C:\VisualTec\PIX_BB\AC Banco do Brasil - SERVIDORES v1 HOM.cer
+Http.Sock.SSL.PrivateKeyFile: 
+Http.Sock.SSL.Certificate: 
+Http.Sock.SSL.PrivateKey: 
+
+21/08/24 15:16:27:839 -   ResultCode: 200 - OK
+21/08/24 15:16:27:839 -   Sock.LastError: 0
+21/08/24 15:16:27:845 -   Resp.Headers:
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+x-request-id: 71b39139a1af2f4a5f81aeccddcd1b38
+x-bw-uuid: 373c307b-a86c-4205-b446-0acd089dee69
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+x-powered-by: Banco do Brasil
+x-download-options: noopen
+Content-Type: application/json
+Content-Length: 567
+Date: Wed, 21 Aug 2024 18:16:28 GMT
+Connection: keep-alive
+
+
+21/08/24 15:16:27:849 - Resp.Body:
+{"calendario":{"criacao":"2024-08-21T15:16:24.00-03:00","expiracao":300},"devedor":{"cpf":"41503057810","nome":"NILSON DE MACEDO SOARES"},"valor":{"modalidadeAlteracao":0,"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","solicitacaoPagador":"Solicitacao Pix","txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","revisao":0,"status":"ATIVA","pixCopiaECola":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD","pix":[]}
+21/08/24 15:16:27:854 - ChamarEventoQuandoReceberRespostaEndPoint( /cob, GET )
+21/08/24 15:16:27:859 -   ResultCode:200
+21/08/24 15:16:27:863 -   RespostaHttp: {"calendario":{"criacao":"2024-08-21T15:16:24.00-03:00","expiracao":300},"devedor":{"cpf":"41503057810","nome":"NILSON DE MACEDO SOARES"},"valor":{"modalidadeAlteracao":0,"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","solicitacaoPagador":"Solicitacao Pix","txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","revisao":0,"status":"ATIVA","pixCopiaECola":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD","pix":[]}
+21/08/24 15:16:27:868 - PrepararHTTP
+21/08/24 15:16:27:872 - LimparHTTP
+21/08/24 15:16:27:876 - ConfigurarAutenticacao( POST, /boletos-pix/pagar )
+21/08/24 15:16:27:880 - TransmitirHttp( POST, https://api.hm.bb.com.br/testes-portal-desenvolvedor/v1/boletos-pix/pagar?gw-app-key=95cad3f03fd9013a9d15005056825665 )
+21/08/24 15:16:27:884 - ConfigurarHTTP
+21/08/24 15:16:27:889 - ConfigurarProxy
+21/08/24 15:16:27:893 - ConfigurarTimeOut
+21/08/24 15:16:27:897 - ConfigurarHeaders( POST, https://api.hm.bb.com.br/testes-portal-desenvolvedor/v1/boletos-pix/pagar?gw-app-key=95cad3f03fd9013a9d15005056825665 )
+21/08/24 15:16:27:901 -   Req.Headers:
+Authorization:Bearer LRyks6oJS9rzvN4bybSIYAgDyeOC6kvGvPLyHDCdgXHssmxfvLW328RGg79XcXmZD768DU3ShEZtihKRalSWag.xXe-S8m-hHE3Z1tnmeaAj2FsJ95g_cE6GjR1DQNS94gcK_bw1izfh8NaDj-6O1o51Jb9lSc9FT_5_Rg_tlUhvCKWhGA9JyW79yylQW7zUHndMq9XJ5SEE0cpKJut52_3zX9WgM1WzqjQvkQskZBEoqOBYSH87e4UKa0kN4jYVmJAAX8wEeY7isHWz143qhbqiyKRyNjO07ugAk53mnaMSQDaP82SG2pNDdwrPg38YkBaNsl9wlnFOrtQy_8aVUyzlnxDwPdsRfaI6PqcNSsFy2yEjZgzzNpQ7UukyyQvQvxBaUtPDYc7pUHkX3365uBd5MwKhZrOw_r7dyeppejkt2Yp6u7ujQnKF-H-R8mnqdk9FEToIEaP99qbp48jM20_xuTm_K451VfDWNZw-3fg7TpQxUQ575gK5HeVwHxibVYbieTCBm7mDzVvjL80VXDYCbGvgKCL_XjPD0_9ZK_RyG3CUjL4xRqLmzU57Qm4zcCBu76veRaO3ApUyAXwRTv3pKYARBvPTgFSMn0F7rCajMVYF9AWODokqPBtNCA0je69rhInP6CBCSs5xWe4LasI7811IRJuxEETrPCKFYrmoKVlgnCQP5hVX9nbsgMt-vP43YiOWwPt1L2-hZ7b6egezfPvxHvzwqNAMq7UliE7M1XzuMMPCNvKTIUwZKHBPdtW22KtBJGg3hBZRbRIF-1VW4tvgmlGnXLfv_m27fZaI-kb7L0JgQjri_0L8M6k1u17uArm14FAyti6TjSVehNzpD16fLw0jH7HzFh-ZW_pvXHelQbc7VhRHNMc-iW_2UPp_0h8CBFKXYzJ42WutPhShiRZeFw51dmME64rWvI3A680YVRtAxTJPH-lhDPvumbNKx1Ic1tS0oe92vFLaJu0oTpmsBPeQYnOoKupLZ3_0-Wnm2o9ydMsDsugJJiohmCa6GDlj6eiduc2Z7V4oCDl5gxA40TcSODFW6k3H0KQdd9pK6untRe-8fqK1_KtpVUnw9o4xpm4HfUdulFc-Prz.YHxSr8EQG4B7FB_xlOc3QVl6W5r3MTdPeK0xB2380L17a2kKWiER6JYFnZp6mAFfH39HtSM91CXGHSOidRaThg
+
+21/08/24 15:16:27:905 -   Req.Body:
+{"pix":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD"}
+21/08/24 15:16:27:909 - 
+Http.Sock.SSL.CertificateFile: C:\VisualTec\PIX_BB\AC Banco do Brasil - SERVIDORES v1 HOM.cer
+Http.Sock.SSL.PrivateKeyFile: 
+Http.Sock.SSL.Certificate: 
+Http.Sock.SSL.PrivateKey: 
+
+21/08/24 15:16:28:523 -   ResultCode: 200 - OK
+21/08/24 15:16:28:523 -   Sock.LastError: 0
+21/08/24 15:16:28:530 -   Resp.Headers:
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+x-request-id: 2746e9c4286d404f844859e7b9b004d8
+x-bw-uuid: 8893a47f-5abf-4f20-b764-37a01f3044cb
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+x-powered-by: Banco do Brasil
+x-download-options: noopen
+Content-Type: application/json
+Content-Length: 55
+Date: Wed, 21 Aug 2024 18:16:28 GMT
+Connection: keep-alive
+
+
+21/08/24 15:16:28:534 - Resp.Body:
+{"code": 1,"texto": "E000000002024082118164SW03XUMC3D"}
+21/08/24 15:16:28:538 - EACBrPixHttpException: Code: 1 - E000000002024082118164SW03XUMC3D
+21/08/24 15:16:31:075 - ConsultarCobrancaImediata( ooR45ctp0o6HQgm5FMFR1ihvPm, 0 )
+21/08/24 15:16:31:076 - PrepararHTTP
+21/08/24 15:16:31:082 - LimparHTTP
+21/08/24 15:16:31:087 - AcessarEndPoint( GET, /cob )
+21/08/24 15:16:31:093 - ConfigurarAutenticacao( GET, /cob )
+21/08/24 15:16:31:098 - CalcularURLEndPoint( GET, /cob )
+21/08/24 15:16:31:103 -   https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57
+21/08/24 15:16:31:109 - ChamarEventoQuandoAcessarEndPoint( /cob, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57, GET )
+21/08/24 15:16:31:115 - TransmitirHttp( GET, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57 )
+21/08/24 15:16:31:120 - ConfigurarHTTP
+21/08/24 15:16:31:125 - ConfigurarProxy
+21/08/24 15:16:31:130 - ConfigurarTimeOut
+21/08/24 15:16:31:135 - ConfigurarHeaders( GET, https://api.hm.bb.com.br/pix/v2/cob/ooR45ctp0o6HQgm5FMFR1ihvPm?gw-dev-app-key=f01a7d2c222a6921805e31ba5d79da57 )
+21/08/24 15:16:31:140 -   Req.Headers:
+Authorization:Bearer LRyks6oJS9rzvN4bybSIYAgDyeOC6kvGvPLyHDCdgXHssmxfvLW328RGg79XcXmZD768DU3ShEZtihKRalSWag.xXe-S8m-hHE3Z1tnmeaAj2FsJ95g_cE6GjR1DQNS94gcK_bw1izfh8NaDj-6O1o51Jb9lSc9FT_5_Rg_tlUhvCKWhGA9JyW79yylQW7zUHndMq9XJ5SEE0cpKJut52_3zX9WgM1WzqjQvkQskZBEoqOBYSH87e4UKa0kN4jYVmJAAX8wEeY7isHWz143qhbqiyKRyNjO07ugAk53mnaMSQDaP82SG2pNDdwrPg38YkBaNsl9wlnFOrtQy_8aVUyzlnxDwPdsRfaI6PqcNSsFy2yEjZgzzNpQ7UukyyQvQvxBaUtPDYc7pUHkX3365uBd5MwKhZrOw_r7dyeppejkt2Yp6u7ujQnKF-H-R8mnqdk9FEToIEaP99qbp48jM20_xuTm_K451VfDWNZw-3fg7TpQxUQ575gK5HeVwHxibVYbieTCBm7mDzVvjL80VXDYCbGvgKCL_XjPD0_9ZK_RyG3CUjL4xRqLmzU57Qm4zcCBu76veRaO3ApUyAXwRTv3pKYARBvPTgFSMn0F7rCajMVYF9AWODokqPBtNCA0je69rhInP6CBCSs5xWe4LasI7811IRJuxEETrPCKFYrmoKVlgnCQP5hVX9nbsgMt-vP43YiOWwPt1L2-hZ7b6egezfPvxHvzwqNAMq7UliE7M1XzuMMPCNvKTIUwZKHBPdtW22KtBJGg3hBZRbRIF-1VW4tvgmlGnXLfv_m27fZaI-kb7L0JgQjri_0L8M6k1u17uArm14FAyti6TjSVehNzpD16fLw0jH7HzFh-ZW_pvXHelQbc7VhRHNMc-iW_2UPp_0h8CBFKXYzJ42WutPhShiRZeFw51dmME64rWvI3A680YVRtAxTJPH-lhDPvumbNKx1Ic1tS0oe92vFLaJu0oTpmsBPeQYnOoKupLZ3_0-Wnm2o9ydMsDsugJJiohmCa6GDlj6eiduc2Z7V4oCDl5gxA40TcSODFW6k3H0KQdd9pK6untRe-8fqK1_KtpVUnw9o4xpm4HfUdulFc-Prz.YHxSr8EQG4B7FB_xlOc3QVl6W5r3MTdPeK0xB2380L17a2kKWiER6JYFnZp6mAFfH39HtSM91CXGHSOidRaThg
+
+21/08/24 15:16:31:145 -   Req.Body:
+
+21/08/24 15:16:31:150 - 
+Http.Sock.SSL.CertificateFile: C:\VisualTec\PIX_BB\AC Banco do Brasil - SERVIDORES v1 HOM.cer
+Http.Sock.SSL.PrivateKeyFile: 
+Http.Sock.SSL.Certificate: 
+Http.Sock.SSL.PrivateKey: 
+
+21/08/24 15:16:31:592 -   ResultCode: 200 - OK
+21/08/24 15:16:31:592 -   Sock.LastError: 0
+21/08/24 15:16:31:598 -   Resp.Headers:
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+x-request-id: eca76f19a8f117b231392fde541ef379
+x-bw-uuid: 2c79cfb1-c920-423e-b1ea-51a4c1345fa4
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+x-powered-by: Banco do Brasil
+x-download-options: noopen
+Content-Type: application/json
+Content-Length: 925
+Date: Wed, 21 Aug 2024 18:16:32 GMT
+Connection: keep-alive
+
+
+21/08/24 15:16:31:602 - Resp.Body:
+{"calendario":{"criacao":"2024-08-21T15:16:24.00-03:00","expiracao":300},"devedor":{"cpf":"41503057810","nome":"NILSON DE MACEDO SOARES"},"valor":{"modalidadeAlteracao":0,"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","solicitacaoPagador":"Solicitacao Pix","txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","revisao":0,"status":"CONCLUIDA","pixCopiaECola":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD","pix":[{"endToEndId":"E000000002024082118164SW03XUMC3D","txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","valor":"9000.00","componentesValor":{"original":{"valor":"9000.00"}},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","horario":"2024-08-21T15:16:29.00-03:00","infoPagador":"Solicitacao Pix","pagador":{"cpf":"93492239293","nome":"VICTOR LOPES DORNELES"},"devolucoes":[]}]}
+21/08/24 15:16:31:607 - ChamarEventoQuandoReceberRespostaEndPoint( /cob, GET )
+21/08/24 15:16:31:612 -   ResultCode:200
+21/08/24 15:16:31:617 -   RespostaHttp: {"calendario":{"criacao":"2024-08-21T15:16:24.00-03:00","expiracao":300},"devedor":{"cpf":"41503057810","nome":"NILSON DE MACEDO SOARES"},"valor":{"modalidadeAlteracao":0,"original":"9000.00"},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","solicitacaoPagador":"Solicitacao Pix","txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","revisao":0,"status":"CONCLUIDA","pixCopiaECola":"00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/701375fc-12dc-4ac7-9862-4fe6b678565052040000530398654079000.005802BR5921PAPELARIA LEITE CUNHA6012RONDONOPOLIS62070503***6304A9FD","pix":[{"endToEndId":"E000000002024082118164SW03XUMC3D","txid":"ooR45ctp0o6HQgm5FMFR1ihvPm","valor":"9000.00","componentesValor":{"original":{"valor":"9000.00"}},"chave":"9e881f18-cc66-4fc7-8f2c-a795dbb2bfc1","horario":"2024-08-21T15:16:29.00-03:00","infoPagador":"Solicitacao Pix","pagador":{"cpf":"93492239293","nome":"VICTOR LOPES DORNELES"},"devolucoes":[]}]}
+21/08/24 15:22:50:975 - Removendo PSP: TACBrPSPBancoDoBrasil, Nome: ACBrPSPBancoDoBrasil1

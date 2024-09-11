@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/20 11:50:53.000.968,C:\VisualTec\PIX_BB\PIX_BB.dproj=C:\VisualTec\PIX_BB\WorkshopPIX.dproj</Transaction>
+    <Transaction>2024/08/20 11:54:04.000.785,C:\VisualTec\PIX_BB\uPDV.pas=</Transaction>
+    <Transaction>2024/08/20 11:54:04.000.807,C:\VisualTec\PIX_BB\Config.pas=</Transaction>
+    <Transaction>2024/08/20 11:54:04.000.793,C:\VisualTec\PIX_BB\PagamentoPIX.pas=</Transaction>
+    <Transaction>2024/08/20 11:54:04.000.800,C:\VisualTec\PIX_BB\Pagamento.pas=</Transaction>
+    <Transaction>2024/08/20 11:54:16.000.377,=C:\VisualTec\PIX_BB\PagamentoPIX.pas</Transaction>
+    <Transaction>2024/08/20 11:54:16.000.274,=C:\VisualTec\PIX_BB\Config.pas</Transaction>
+    <Transaction>2024/08/20 11:54:16.000.318,=C:\VisualTec\PIX_BB\Pagamento.pas</Transaction>
+    <Transaction>2024/08/20 11:54:16.000.436,=C:\VisualTec\PIX_BB\uPDV.pas</Transaction>
+    <Transaction>2024/08/20 11:56:24.000.250,=C:\VisualTec\PIX_BB\uConfig.pas</Transaction>
+    <Transaction>2024/08/20 11:56:24.000.373,=C:\VisualTec\PIX_BB\uPagamentoPIX.pas</Transaction>
+    <Transaction>2024/08/20 11:56:24.000.304,=C:\VisualTec\PIX_BB\uPagamento.pas</Transaction>
+    <Transaction>2024/08/20 11:58:18.000.149,C:\VisualTec\PIX_BB\uPagamento.pas=</Transaction>
+    <Transaction>2024/08/20 11:58:18.000.143,C:\VisualTec\PIX_BB\uPagamentoPIX.pas=</Transaction>
+    <Transaction>2024/08/20 11:58:18.000.135,C:\VisualTec\PIX_BB\uPDV.pas=</Transaction>
+    <Transaction>2024/08/20 11:58:18.000.155,C:\VisualTec\PIX_BB\uConfig.pas=</Transaction>
+    <Transaction>2024/08/20 11:58:22.000.220,=C:\VisualTec\PIX_BB\uPDV.pas</Transaction>
+    <Transaction>2024/08/20 11:58:22.000.160,=C:\VisualTec\PIX_BB\uPagamentoPIX.pas</Transaction>
+    <Transaction>2024/08/20 11:58:22.000.059,=C:\VisualTec\PIX_BB\uConfig.pas</Transaction>
+    <Transaction>2024/08/20 11:58:22.000.102,=C:\VisualTec\PIX_BB\uPagamento.pas</Transaction>
+    <Transaction>2024/08/21 13:44:35.818,=C:\VisualTec\PIX_BB\Unit1.pas</Transaction>
+    <Transaction>2024/08/21 13:47:08.233,C:\VisualTec\PIX_BB\uConsultaPagamentos.pas=C:\VisualTec\PIX_BB\Unit1.pas</Transaction>
+    <Transaction>2024/08/21 13:47:08.233,C:\VisualTec\PIX_BB\uConsultaPagamentos.dfm=C:\VisualTec\PIX_BB\Unit1.dfm</Transaction>
+    <Transaction>2024/08/21 14:04:25.437,C:\VisualTec\PIX_BB\uConsultaPagamentos.pas=</Transaction>
+    <Transaction>2024/08/21 14:04:44.765,=C:\VisualTec\PIX_BB\uConsultaPagamentos.pas</Transaction>
+  </Transactions>
+</BorlandProject>
